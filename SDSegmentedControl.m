@@ -85,7 +85,7 @@ const CGFloat kSDSegmentedControlScrollOffset = 20;
     _selectedSegmentIndex = -1;
     _interItemSpace = kSDSegmentedControlInterItemSpace;
     _stainEdgeInsets = kSDSegmentedControlStainEdgeInsets;
-    __items = NSMutableArray.array;
+    self._items = NSMutableArray.array;
 
     // Appearance properties
     _animationDuration = kSDSegmentedControlDefaultDuration;
